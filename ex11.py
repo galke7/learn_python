@@ -14,3 +14,5 @@ print(f"You said {happy}!")
 num1 = int(input("Enter a number: "))
 num2 = int(input("and one more: "))
 print(f"you enterd {num1} and {num2}, sum: {num1 + num2} ")
+print(f"{num1}*{num2}={num1 * num2}")
+
