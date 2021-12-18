@@ -7,6 +7,7 @@ txt = open(filename)
 # read the file and printing it to the screen
 print(f"Here's your file {filename}:")
 print(txt.read())
+txt.close()
 
 print("Type the filename again:")
 
@@ -15,4 +16,4 @@ file_again = input("> ")
 txt_again = open(file_again)
 # read the txt file and print it
 print(txt_again.read())
-
+txt_again.close()
